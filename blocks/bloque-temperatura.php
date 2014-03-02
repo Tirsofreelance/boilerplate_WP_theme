@@ -1,0 +1,1 @@
+<p>Esto está dentro de blocks/bloque-temperatura</p>

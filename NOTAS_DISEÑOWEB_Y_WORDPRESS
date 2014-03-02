@@ -1,0 +1,476 @@
+**********************************************
+NOTAS PREVIAS OBTENIDAS DE HANGS OUT GRATUITOS
+**********************************************
+
+
+NOTAS CURSO WP
+--------------
+
+
+Cuando instalamos un MAMP crea unas carpetas en el MAC es donde hay que poner las archivos con los que trabajamos.
+
+Sesón 2 - 5 febrero 2014
+-----------------------
+Cuando instalamos un MAMP crea unas carpetas en el MAC es donde hay que poner las archivos con los que trabajamos.
+
+Cuando instalamos un MAMP crea unas carpetas en el MAC es donde hay que poner las archivos con los que trabajamos.
+
+
+Lenguajes para trabajar con WP
+------------------------------
+
+No es estrictamente necesario saber PHP pere es mucho mejor y nos permitirá hacer cualquier cosa.
+
+PHP: Lenguaje del servidor, 100% web, práctico, sencillo. Gran Comunidad
+
+El navegador hace la solicitud al navegador y éste que utiliza php devuelve esta información al cliente en HTML.
+
+PHP permite la personalizacón de WP y para cosas más simples.
+
+Para controlar WP:
+
+	- HTML - CSS
+	- JS
+	- PHP
+
+ejemplo: crear pluggin para clientes de un despacho de abogados con usuario y contraseña.
+
+FUNCIONALIDADES = PHP
+
+INTERACCIÓN = JS
+
+1º aprender PHP básico
+
+2º intentar hacer un pequeño pluggin ( un "hello world!")
+
+WP sofware libre.
+
+codex.wordpress.org ---> consultas de PHP, pero hay que controlar un poco. 
+
+WP ayuda muy bien a organizar. Pero hay que saber qué es una ENTRADA, CATEGORÍA ....
+
+
+Importante, saber cómo funciona un loop o bucle, esto se aplica a los post...
+
+Formulario = Action
+
+Con PHP se crea HTML
+
+un PHP genera HTML pero contiene PHP
+
+Ok… se van a subir estos archivos a la plataforma de alumnos de Escuela IT?
+R: Lo subiremos a desarrolloweb.com y al canal de Youtube - https://www.youtube.com/user/desarrollowebcom
+
+--------HANGSOUT DIA PREVIO AL CURSO-------------
+
+
+
+
+
+**************************************************
+
+
+@Wakkos / Skype: CoolVillage
+
+@MrViSiOn2
+
+
+Platilla: html con adaptaciones de WP
+
+
+P: se implemtara seguridad en wordpress en el login con aplicaciones como Latch (de EleventPaths) etc.
+R: Sesion en abierto sobre Seguridad en W.P http://youtu.be/FSDYGC4aYsI
+
+NO DEJAR UNA WEB MUERTA/PARADA = saber cómo funciona internet: compartir, nada es estático.
+
+MIrar el canal DesignIO, DEBATE SOBRE PHOTOSHOP.
+
+
+Ir pasando las webs que hagamos a WP para ir aprendiendo.
+
+Bootstrap, Foundation.... SABER CÓMO FUNCIONA, saber qué hay debajo.
+
+WP: Gestión del contenido. LLeva mucho más tiempo que una web "standard" pero tenemos más control sobre el contenido.
+
+PHP se ejecuta en el SERVIDOR.
+
+Tutoría: 12.00 noche hora española.
+
+
+DÍA 3
+*****
+
+
+- No partir de 0 en cada proyecto. 
+
+DRY: Don´t repeat yourself
+
+Si algo lo tenemos hecho, usarlo todo lo que podamos.
+
+Nota mía: Crear Wareframe HTML5 y CSS.
+
+ver: Index Boilerplate
+
+WP en el fondo es un framework.
+
+Se puede usar un formulario con html en lugar de un post, se podría ocultar con la gestión de admimistradores. Aceptar, validar, insertar en la BDD.
+
+Cuando queremos insertar datos en la  BDD tenemos que comunicarnos con ella.
+
+Tras ingresar en la BDD debemos RETRAER de la BDD.
+
+...
+
+con WP tenemos TODO esto CREADO.
+
+probl: fallos de seguridad, pero para webs pequeñas donde se trata de mostrar información está muy bien.
+
+WP tiene dos zonas importantes:
+
+- PÁGINAS Y ENTRADAS. Las entradas se comportan como un FLUJO DE NOTICIAS.
+
+- ENTRADAS (POSTS) y PÁGINAS
+
+ENTRADAS: Es de lo que se alimenta el blog.
+
+ESCUELA IT está basado en WP
+
+Si creamos nuestra plantilla puede estar condicionada a cómo creemos las entradas.
+
+El contenido "dinámico de WP" ES:
+
+	* PÁGINAS
+
+	* ENTRADAS
+
+Las páginas no tienen categorías.
+
+PORTFOLIO:
+
+	* Categoría PORTFOLIO:
+
+		- Web
+
+		- Logo
+
+		- Gráfico
+
+		...
+
+PÁGINA != CATEGORÍA
+
+Una página WP puede ser RD pero depende de NOSOTROS. (pudo hacer un prototipo para LAURA)
+
+Preparar una página HTML + CSS y para pasar a WP.
+
+ANTES DE TODO: CONTENIDO.
+
+
+Los elementos del menú : PÁGINA
+
+Secciones: son las CATEGORÍAS ( deporte, información, mentiras...)
+
+CADA "COSA QUE HAGA" Es una ENTRADA, esta información va fluyendo en la web..
+
+s.e. CONTACTO es fijo, no fluye: va en el menú es una página.
+
+PÁGINA: Estático
+
+CONTENIDO: No estático, va fluyendo, se nutre de las ENTRADAS.
+
+
+DÍA 4 (CLASE 3)
+*****
+
+No asistí, ver video:
+
+Instalamos BOILERPLATE en wp-content/themes/boilerplate
+
+WP aunque tenga el tema en carpeta de temas, aunque parezca un poco raro va a mostrarse en el INDEX, por que éste le dice al index del tema que aparezca.
+
+probamos a incluir una imagen en el index del tema, NO APARECERÁ al recargar el wps, lo que habrá que hacer es poner la RUTA RELATIVA ENTERA DESDE LA RAIZ.
+
+Esto hay que tenerlo MUY CLARO cunado construimos el tema. También sirve par el CSS...
+
+
+DIA 5 (CLASE 4)
+*****
+
+http://estudiantes.desarrolloweb.com/wp-login.php?action=lostpassword
+
+- Cómo se estructura una plantilla de WP
+
+WP sabe qué plantilla cargar.
+
+Si queremos mostrar una página con el CONTENIDO de una entrada = SINGLE.PHP
+
+SINGLE.PHP mostrará UN ARTÍCULO al que ho haré LINK.
+
+
+Que hacemos para crear plantillas en WP:
+
+- Entradas
+
+- Páginas
+
+C/ uno es una plantilla diferente qe podemos modificar.
+
+WP sabe qué plantilla/elemento es de su tema y sabe qué plantilla cargar.
+
+
+SINGLE --> Entrada y Artículo, UNO.
+
+C/artículo tiene un link único: PERMALINK.
+
+Si tengo una entrada pero no una plantilla de entradas irá directamente al índex.
+
+WP priemro ver si hay un single.php, si no hay single carga index.php.
+
+PAGE
+
+Página es un contenedor.
+
+It’s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). 
+
+Most people start with an About page that introduces them to potential site visitors. It might say something like this:
+Hi there! I’m a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like piña coladas. (And gettin’ caught in the rain.)
+
+
+Las plantillas de página pueden ser diferentes.
+
+Usar ID para que no dependa del nombre de la página.
+
+ej: crear page-4
+
+GUARDAR el archivo con page_(id), donde id = número.
+
+Ejemplo:
+
+	- page.php
+	- page-4.php
+
+Todas las "page" van a usar la plantilla de "page"
+
+
+
+CATEGORY
+
+
+WP sabe qué va a mostrar en función de la clase de archivo (age, category...) y del id: 4,5....
+
+CATEGORY = sirve para hacer categorías de nuestro contenido.
+
+ej: Marbel: Héroes, Villanos.
+
+A cada categoría la nombraremos como "category-3" "category-4"...
+
+PLANTILLA DE PÁGINAS
+---------------------
+
+
+php tiene includes.
+
+usar includes para ahorrar tiempo, ej: "include menu"
+
+
+
+
+
+
+
+DIA 6 (CLASE 5)
+***************
+
+Utilizaremos la plantilla de github.
+
+category
+
+header: lo usa por defecto WP, tener este archivo. es una plantilla utilizada x WP.
+
+HEADER: lo que van a tener todas
+
+
+ppal ventaja de get header.php y get footer.php es más fácil que se incluya el archivo ( frente a include )
+
+
+Se pueden nombrar headers desde index.php y traer el que nos interese.
+
+EL parámetro es el nombre de ese header, que es "especial".
+
+Si tenemos header "especial" carga los dos.
+
+<?php get_header(); ?> 
+**********************
+
+Con esta función importamos a cada página .php el header, así no lo tenemos que tener escrito en cada página.
+
+get_header es más cómodo que include y más práctico, ya que no tenemos que incluirle la ruta. Si wp encuentra ese archivo al que se llama, lo incorpora directamente.
+
+
+! una cosa buena de esta función es que podemos incluir "parámetros" dentro de () e importar el header que tengamos guardado con ese nombre --> La IDEA de esto es que añadamos a cada página el HEADER que más nos convenga: por ejemplo para CAMBIAR EL TÍTULO, NUEVAS METAS, CAMBIAR CSS...
+
+ES EXACTAMENTE LO MISMO PARA EL FOOTER.
+
+
+
+Para que encuentre ese "especial" debemos crear un archivo: header-especial
+
+-especial se cambia por "especial" dentro de ().
+
+
+Si NO encuentra ese HEADER ESPECIAL importa el HEADER POR DEFECTO.
+
+
+*	USO de ID = cdo queremos mantener la estructura de la Base de DAtos
+
+*	Nombre = le damos un nombre, pero NO se basa en la estructura de la BdD
+
+A la hora de dar NOMBRE a una PLANTILLA escogemos uno de estos dos métodos.
+
+Al crear PÁGINAS, se basa en el modelo de page.php y le AÑADE UN ID
+
+Otra opción para get_header:
+
+<?php get_header("misheaders/especial"); ?>
+*******************************************
+
+Así buscaría los headers en la CARPETA "misheaders"
+---------------------------------------------------
+
+
+-------------
+Otra función:
+-------------
+
+
+WP proporciona funciones para que con una sola función, el head lo tengamos en un solo fichero y lo importemos a los demás.
+
+Hacer un fichero header.
+
+
+
+<?php wp_header(); ?>
+*********************
+
+Recoje todos los pluggins, css ... para que la página tenga la funcionalidad de ese plugin.
+
+ej: Google maps, por qué no me lo carga?... por que no se ha incluido esta función.
+
+con get organizamos la PLANTILLA no el contenido.
+
+Al incluir get_header-especial en el Index, en la consola vemos muchísimo código que no hemos creado nosotros:
+
+Qué significa todo esto? esta función, todos los pluggins que de alguna menera impactan en la plantilla, los recoge y los mete ahí,para que la página tenga la función de ese pluggin.
+
+HAY QUE MODULARIZAR TODO LO QUE PODAMOS: un php por cada tag importante.
+
+
+
+
+otra parecida a get_footer y get_header:
+****************************************
+
+<?php get_template_part("blocks/nombredelficherosinextensión"); ?>
+-------------------------------------------------------------------
+
+Con esta función podemos IMPORTAR LO QUE TENGAMOS EN CARPETAS.
+
+!IMP: TODO ESTO SIRVE PARA ORGANIZAR LA PLANTILLA, NO EL CONTENIDO
+------------------------------------------------------------------
+
+sidebar.php: por convención carga un aside y detro una ul.
+**********************************************************
+
+Si no incluimos sidebar.php, WP tiene por defecto un sidebar. Pero creamos un sidebar para diseñarlo como queramos. pero para que aparezca ese sidebar x defecto debe estar la función get_sidebar, y si no incluimos la función, no inluirá nada.
+
+get_sidebar
+
+get_sidebar("mysidebar")
+------------------------
+
+Si incluimos get_sidebar, pero NO tenemos ese archivo, WP incluirá uno x defecto con un montón de cosas.
+
+ASIDE: no es un sidebar, POR DEFINICIÓN EN HTML ES UN CONTENIDO APARTE.
+
+
+<?php get_search_form(); ?>
+---------------------------
+( le faltaría a este formulario DÓNDE buscar )
+
+
+El nombre del tema no lo da la carpeta.
+
+Incluir siempre la función <?php wp_head(); ?> para evitar incompatibilidades con pluggins.
+
+To Do:
+
+Crear un tema sin contenido:
+
+Todos los archivos que conozcamos.
+
+Archivos e includes.
+
+*********************
+***CLASE EXTRA PHP***
+*********************
+
+php NO SE SIRVE AL NAVEGADOR, no lo entiende.
+
+s.e. un servidor PHP entiende PHP y lo va a ejecutar y va a responder.
+
+ej: echo--> va a imprimir.
+
+para que lo pueda interpretar tiene que ser un archivo con una extensión .php.
+
+cada línea es una instrucción. Usasr ;
+
+Con las variables se pueden hacer muchas cosas: concatenar strings...
+
+echo: pinta en el html lo que ponemos a continiuación...
+
+"" o '' es lo mismo.
+
+
+en js se concatena con +
+
+
+La respuesta de php generalmente es una respuesta de HTML.
+
+
+Las funciones acaban donde hay un return.
+
+
+*********************
+****DÍA 7 TUTORÍA****
+*********************
+
+
+1- INDEX
+
+Agregar:
+
+- Header
+
+- the loop
+
+- footer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
