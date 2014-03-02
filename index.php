@@ -1,10 +1,10 @@
-<?php get_header(); ?>
 
-	
+<?php get_header("index"); ?>
+
+
 
 <?php get_template_part("the_loop"); ?>
 
 
-
-<?php get_footer(); ?>
+<?php get_footer();  ?>
 

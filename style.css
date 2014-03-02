@@ -5,6 +5,7 @@
 }
 body{
 	background: #eaeaea;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 
 }
@@ -19,40 +20,26 @@ footer {
 img {
 	max-width: 100%;
 }
-h1 {
-	color:red;
-}
 
-nav {
-	position: fixed;
-	width: 30%;
+.nav {
+	background: rgba(0,0,0,.85);
+	display: inline-block;
+	position: relative;
 	background-color: #fefefe;
-	border: 1px solid grey;
+	width: auto;
 }
 
-nav li {
-	width: 100%;
-	border-bottom: 1px solid black;
+.nav li {
+	display: inline-block;
+	margin:0;
+	padding: 1em;
+
+}
+
+.nav li a{
+	color:rgba(white,.5);
+	text-decoration: none;
 }
 
 
-strong {
-	background-color: olive;
-	color: white;
-	display: block;
-	padding: .5em 1em;
-}
-
-.especial {
-	background-color: grey;
-}
-
-.image {
-	max-width: 400px;
-}
-
-.villanos {
-	background-color: black;
-	color: white;
-}
 
